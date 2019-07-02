@@ -26,10 +26,10 @@ Exercise java 8 by steve
     StringBuilder strBuilder = new StringBuilder();
     strBuilder.append("123");  
 
-===========================================================
+//===========================================================
 for迴圈跑十萬次
 StringAdd         5481 ms
-StringBuffer      14ms
+StringBuffer      14 ms
 StringBuilder     7 ms
 ```
 ### 結論  
