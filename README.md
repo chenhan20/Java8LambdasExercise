@@ -24,9 +24,9 @@ Exercise java 8 by steve
     strBuffer.append("123");
     //------------------------------------------------------
     StringBuilder strBuilder = new StringBuilder();
-    strBuilder.append("123");
-```   
-```
+    strBuilder.append("123");  
+
+===========================================================
 for迴圈跑十萬次
 StringAdd         5481 ms
 StringBuffer      14ms
@@ -42,7 +42,7 @@ for(int i = 0;i<100000;i++){
     testStr += "123";
 }
 ```  
-這樣在for迴圈內每次都會在new StringBuilder()`
+這樣在for迴圈內每次都會在`new StringBuilder()`
 物件所以會導致很慢10萬筆就要跑七秒了
 但用`stringBuilder`直接`append`的話是一千倍以上的速度
 所以sql直接`+=`基本上算是沒什麼問題 但for迴圈串接就要注意  
