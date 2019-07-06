@@ -33,7 +33,7 @@ StringBuffer      14 ms
 StringBuilder     7 ms
 ```
 ### 結論  
-測試結論  雖然java預設string串接使用`StringBuilder`物件  
+測試結論  雖然java預設String串接使用`StringBuilder`物件  
 所以若不是for迴圈其實沒什麼差別 但若是在for回圈內串接  
 **例如**  
 ```java  
